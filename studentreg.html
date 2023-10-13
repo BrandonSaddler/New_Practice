@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Student Registration form</legend>
+    <form action="">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required placeholder="Enter First Name"><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required placeholder="Enter Last Name"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Email Address"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter Password"><br><br>
+
+        <label for="confirm_password">Re-enter Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required placeholder="Re-Enter Password"><br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required placeholder="Enter Phone Number"><br><br>
+
+        <label for="gender">Gender:</label>
+        <label for="male"> Male</label></select>
+        <input type="radio" id="male" name="gender">
+        <label for="female"> Female</label></select>
+        <input type="radio" id="male" name="gender">
+        <br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="country">Country:</label>
+        <select>
+            <option value="">Select country</option>
+            <option value="United Kingdom">UK</option>
+            <option value="United States">USA</option>
+            <option value="Germany">Germany</option>       
+        </select>
+
+        <input type="submit" value="Save">
+        <input type="reset" value="Clear all">
+    </form>
+</fieldset>
+</body>
+</html>
